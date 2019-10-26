@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--pamntalla de login-->
+    <string name="app_name">Interfaces</string>
+    <string name="email">Dirección de correo electrónico</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="botoncito">Iniciar Sesión</string>
+    <string name="made">Hecho con 💙 en UNAMxHacks</string>
+    <!--pantalla de usuarios-->
+    <string name="AUF_instructions">Selecciona un usuario</string>
+    <string name="textMainUSR">Usuario Principal</string>
+    <string name="textSubUSR01">Sub usuario 01</string>
+    <string name="textSubUSR02">Sub usuario 02</string>
+    <string name="textSubUSR03">Sub usuario 03</string>
+    <!--pantalla de vacunas-->
+</resources>

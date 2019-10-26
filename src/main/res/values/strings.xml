@@ -1,0 +1,17 @@
+<resources>
+    <!--pamntalla de login-->
+    <string name="app_name">Interfaces</string>
+    <string name="email">Email Address</string>
+    <string name="contrasenia">Password</string>
+    <string name="botoncito">Sign In</string>
+    <string name="made">Made with 💙 in UNAMxHacks</string>
+    <!--pantalla de usuarios-->
+    <string name="AUF_instructions">Select a user</string>
+    <string name="textMainUSR">Main User</string>
+    <string name="textSubUSR01">Sub user 01</string>
+    <string name="textSubUSR02">Sub user 02</string>
+    <string name="textSubUSR03">Sub user 03</string>
+    <!--pantalla de vacunas-->
+
+    <!--pantalla de citas-->
+</resources>
