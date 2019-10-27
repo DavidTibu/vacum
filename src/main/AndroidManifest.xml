@@ -6,10 +6,13 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Vacunas"></activity>
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".VacunasSub03"></activity>
+        <activity android:name=".VacunasSub02" />
+        <activity android:name=".VacunasSub" />
+        <activity android:name=".Vacunas" />
         <activity android:name=".UsuariosFamiliares" />
         <activity android:name=".MainActivity">
             <intent-filter>

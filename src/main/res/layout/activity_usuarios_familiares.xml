@@ -8,41 +8,49 @@
 
     <ImageButton
         android:id="@+id/mainUser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="128dp"
+        android:onClick="passActivityMain"
+        android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars[4]" />
+        android:src="@drawable/usuario1original" />
 
     <ImageButton
         android:id="@+id/subUser01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
         android:layout_marginEnd="30dp"
+        android:onClick="passActivitySub"
+        android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/mainUser"
-        tools:srcCompat="@tools:sample/avatars[5]" />
+        android:src="@drawable/usuario2original" />
 
     <ImageButton
         android:id="@+id/subUser02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
+        android:onClick="passActivitySub1"
+        android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textMainUser"
-        tools:srcCompat="@tools:sample/avatars[12]" />
+        android:src="@drawable/usuario3original" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/subUser03"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
         android:layout_marginEnd="30dp"
+        android:onClick="passActivitySub2"
+        android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/subUser02"
-        tools:srcCompat="@tools:sample/avatars[11]" />
+        android:src="@drawable/usuario4original" />
 
     <TextView
         android:id="@+id/textMainUser"
@@ -50,8 +58,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="casual"
         android:text="@string/textMainUSR"
-        app:layout_constraintTop_toBottomOf="@+id/mainUser"
-        tools:layout_editor_absoluteX="81dp" />
+        app:layout_constraintEnd_toEndOf="@+id/mainUser"
+        app:layout_constraintStart_toStartOf="@+id/mainUser"
+        app:layout_constraintTop_toBottomOf="@+id/mainUser" />
 
     <TextView
         android:id="@+id/textSubUser01"
@@ -59,8 +68,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="casual"
         android:text="@string/textSubUSR01"
-        app:layout_constraintTop_toBottomOf="@+id/subUser01"
-        tools:layout_editor_absoluteX="280dp" />
+        app:layout_constraintEnd_toEndOf="@+id/subUser01"
+        app:layout_constraintStart_toStartOf="@+id/subUser01"
+        app:layout_constraintTop_toBottomOf="@+id/subUser01" />
 
     <TextView
         android:id="@+id/textSubUser02"
@@ -68,8 +78,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="casual"
         android:text="@string/textSubUSR02"
-        app:layout_constraintTop_toBottomOf="@+id/subUser02"
-        tools:layout_editor_absoluteX="85dp" />
+        app:layout_constraintEnd_toEndOf="@+id/subUser02"
+        app:layout_constraintStart_toStartOf="@+id/subUser02"
+        app:layout_constraintTop_toBottomOf="@+id/subUser02" />
 
     <TextView
         android:id="@+id/textSubUser03"
@@ -77,8 +88,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="casual"
         android:text="@string/textSubUSR03"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        tools:layout_editor_absoluteX="283dp" />
+        app:layout_constraintEnd_toEndOf="@+id/subUser03"
+        app:layout_constraintStart_toStartOf="@+id/subUser03"
+        app:layout_constraintTop_toBottomOf="@+id/subUser03" />
 
     <TextView
         android:id="@+id/textInstruct"

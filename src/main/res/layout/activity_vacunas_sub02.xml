@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Vacunas">
-
+    tools:context=".VacunasSub02">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -24,84 +23,92 @@
                 android:textAlignment="center"
                 android:textSize="30sp" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kids"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
             <Button
-                android:id="@+id/b1"
+                android:id="@+id/bss1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
-                android:text="Button"
+                android:text="@string/bcg"
                 android:textAlignment="textStart" />
 
             <Button
-                android:id="@+id/b2"
+                android:id="@+id/bss2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
-                android:text="Button"
+                android:text="@string/hepatitisB"
                 android:textAlignment="textStart" />
 
             <Button
-                android:id="@+id/b3"
+                android:id="@+id/bss3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
-                android:text="Button"
+                android:text="@string/pentavalente"
                 android:textAlignment="textStart" />
 
             <Button
-                android:id="@+id/b4"
+                android:id="@+id/bss4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
-                android:text="Button"
+                android:text="@string/dpt"
                 android:textAlignment="textStart" />
 
             <Button
-                android:id="@+id/b5"
+                android:id="@+id/bss5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
-                android:text="Button"
+                android:text="@string/rotavirus"
                 android:textAlignment="textStart" />
 
             <Button
-                android:id="@+id/b6"
+                android:id="@+id/bss6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
-                android:text="Button"
+                android:text="@string/neumococo"
                 android:textAlignment="textStart" />
 
             <Button
-                android:id="@+id/b7"
+                android:id="@+id/bss7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
-                android:text="Button"
+                android:text="@string/influenza"
                 android:textAlignment="textStart" />
 
             <Button
-                android:id="@+id/b8"
+                android:id="@+id/bss8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
-                android:text="Button"
+                android:text="@string/vtp"
                 android:textAlignment="textStart" />
 
             <Button
-                android:id="@+id/b9"
+                android:id="@+id/bss9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
-                android:text="Button"
+                android:text="@string/sabin"
                 android:textAlignment="textStart" />
 
             <Button
-                android:id="@+id/b10"
+                android:id="@+id/bss10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
-                android:text="Button"
+                android:text="@string/sr"
                 android:textAlignment="textStart" />
         </LinearLayout>
     </ScrollView>
